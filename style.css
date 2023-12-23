@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+html,
+body {
+  background-color: black;
+  width: 100%;
+}
+.main {
+  background: url("bg.jpg");
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.main .box {
+  height: 100vh;
+  width: 100%;
+  opacity: 0.69;
+  position: absolute;
+  top: 0;
+  background-color: black;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 6vh 15vw;
+  align-items: center;
+  height: 130px;
+}
+nav img {
+  width: 130px;
+  z-index: 10;
+  position: relative;
+}
+nav button {
+  width: 100px;
+  position: relative;
+  height: 37px;
+  font-size: 1.2rem;
+  z-index: 10;
+}
+.btn {
+  padding: 3px 10px;
+  border: 1px solid white;
+  border-radius: 6px;
+  background-color: rgba(248, 243, 243, 0.021);
+  color: white;
+  font-weight: 400;
+}
+.btn:hover {
+  color: black;
+  background-color: white;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+.btnred {
+  padding: 3px 10px;
+  border: 1px solid white;
+  border-radius: 6px;
+  background-color: red;
+  color: white;
+  font-weight: 400;
+}
+.btnred:hover {
+  color: red;
+  background-color: white;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+.hero {
+  font-family: "Martel Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  color: white;
+  align-items: center;
+  margin-top: 10%;
+  /* justify-content:center; */
+  gap: 1.4rem;
+}
+input {
+  width: 20vw;
+  padding: 6px 10px;
+  color: white;
+  font-size: 1.1rem;
+  border-radius: 4px;
+  background-color: rgba(23, 23, 23, 0.7);
+  border: 1px solid rgba(246, 238, 238, 0.5);
+}
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+}
+.hero button {
+  width: 13vw;
+  height: 7.1vh;
+  font-size: 1.2rem;
+  background-color: red;
+}
+.hero button:hover {
+  color: red;
+  background-color: white;
+  font-weight: 480;
+}
+.hero .text-main {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.hero .heading {
+  font-size: 3.1rem;
+  font-weight: 700;
+}
+.sepr {
+  height: 8px;
+  background-color: rgb(46, 44, 44);
+  position: relative;
+  z-index: 20;
+}
+
+/* .section1{
+    background: url("https://images.unsplash.com/photo-1569470451072-68314f596aec?q=80&w=1331&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.card1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70vw;
+  margin: auto;
+  position: relative;
+}
+.card1 .heading {
+  font-size: 3.1rem;
+  font-weight: 700;
+}
+.card1 .text-main {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.card-img img {
+  width: 40vw;
+  position: relative;
+  z-index: 10;
+}
+.card1 video {
+  position: absolute;
+  /* top: 51px; */
+  right: 0;
+}
+
+.box-ques {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.6rem;
+  margin-bottom: 75px;
+}
+
+.box-ques .heading {
+  font-size: 3.4rem;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  font-weight: 800;
+}
+i {
+  color: white;
+}
+.box-ques .container {
+  background-color: #2d2d2d;
+  padding: 20px 40px;
+  width: 65vw;
+  height: 10vh;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container:hover{
+  background-color: #413f3f;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.footer {
+  height: 15vh;
+  text-align: center;
+  padding-top: 10px;
+}
+.footer h1 {
+  color: white;
+  font-size: 2rem;
+}
+.footer i{
+    color: red;
+}
